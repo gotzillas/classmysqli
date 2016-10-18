@@ -23,7 +23,7 @@ class db
         }
     }
 
-    public  $data_key = 'ADASBDNMBSMDNBKASOPEJRLKE=HACKPORMUNGTAI=DEVELOPERTHAI855';
+    public  $data_key = 'ADASBDNMBSMDNBKASOPEJRLKE=HACKPORMUNGTAI=GOTZILLAS';
 
     public function proted($data)
     {
