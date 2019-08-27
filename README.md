@@ -20,6 +20,11 @@ DB is a Mysql PDO easy CRUD.
 You can also:
   - git clone https://github.com/gotzillas/classmysqli
   - use new DB 
+  - create new php file
+  - include DB.php file and new class <?php incude('DB.php'); $db = new DB(); ?>
+  - $db->select("table_name",['columnd__where' => 'value_where' , 'ccolumnd__where_and','value_where']);
+  - $db->insert("table_name",['columnd_insert' => 'value_insert']);
+  - $db->update("table_name",['columnd_update' => 'value_update'],"id=xxx");
 
 ### Installation
 
