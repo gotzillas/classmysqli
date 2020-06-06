@@ -25,10 +25,10 @@ class DB {
 		return $new_str;
 	}
 
-	public function query($str_command) {
+	public function query($str_command , $params = []) {
 		$query = $this->db->prepare($str_command);
 		$this->db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-		$query->execute();
+		$query->execute($params);
 		return $query->fetchAll();
 	}
 
